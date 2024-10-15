@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apiClient = axios.create({
-  baseURL: "http://localhost:5000/api/chat",
+  baseURL: "https://chat-room-api-tau.vercel.app/api/chat",
   withCredentials: true,
   timeout: 10000,
   headers: {
